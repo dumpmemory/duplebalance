@@ -1,6 +1,6 @@
 """
 ==============================================================
-Compare DuBE with Resampling-based IL Methods
+Compare DuBE with resampling-based IL methods (5 classes)
 ==============================================================
 
 In this example, we compare the :class:`duplebalance.DupleBalanceClassifier` 

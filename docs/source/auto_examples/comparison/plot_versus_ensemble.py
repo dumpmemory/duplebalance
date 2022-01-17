@@ -1,6 +1,6 @@
 """
 ==============================================================
-Compare DuBE with Ensemble-based IL Methods
+Compare DuBE with ensemble-based IL methods (5 classes)
 ==============================================================
 
 In this example, we compare the :class:`duplebalance.DupleBalanceClassifier` 

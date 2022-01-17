@@ -10,7 +10,7 @@ Examples using ``duplebalance.baselines.ResampleClassifier.predict_proba``
 .. only:: html
 
  .. figure:: /auto_examples/comparison/images/thumb/sphx_glr_plot_versus_resampling_thumb.png
-     :alt: Compare DuBE with Resampling-based IL Methods
+     :alt: Compare DuBE with resampling-based IL methods (5 classes)
 
      :ref:`sphx_glr_auto_examples_comparison_plot_versus_resampling.py`
 

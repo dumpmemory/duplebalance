@@ -32,8 +32,29 @@ Comparison between `DupleBalanceClassifier` and other multi-class imbalanced lea
 
 .. only:: html
 
+ .. figure:: /auto_examples/comparison/images/thumb/sphx_glr_plot_multiclass_thumb.png
+     :alt: Testing DuBE with different number of classes (3-15)
+
+     :ref:`sphx_glr_auto_examples_comparison_plot_multiclass.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /auto_examples/comparison/plot_multiclass
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="In this example, we compare the duplebalance.DupleBalanceClassifier  and other ensemble-based c...">
+
+.. only:: html
+
  .. figure:: /auto_examples/comparison/images/thumb/sphx_glr_plot_versus_ensemble_thumb.png
-     :alt: Compare DuBE with Ensemble-based IL Methods
+     :alt: Compare DuBE with ensemble-based IL methods (5 classes)
 
      :ref:`sphx_glr_auto_examples_comparison_plot_versus_ensemble.py`
 
@@ -54,7 +75,7 @@ Comparison between `DupleBalanceClassifier` and other multi-class imbalanced lea
 .. only:: html
 
  .. figure:: /auto_examples/comparison/images/thumb/sphx_glr_plot_versus_resampling_thumb.png
-     :alt: Compare DuBE with Resampling-based IL Methods
+     :alt: Compare DuBE with resampling-based IL methods (5 classes)
 
      :ref:`sphx_glr_auto_examples_comparison_plot_versus_resampling.py`
 

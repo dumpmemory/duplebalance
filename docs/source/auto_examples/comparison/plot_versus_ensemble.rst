@@ -19,7 +19,7 @@
 
 
 ==============================================================
-Compare DuBE with Ensemble-based IL Methods
+Compare DuBE with ensemble-based IL methods (5 classes)
 ==============================================================
 
 In this example, we compare the :class:`duplebalance.DupleBalanceClassifier` 
@@ -185,34 +185,34 @@ Train all ensemble-based IL classifier (including DuBE).
     DuBE            5  | Balanced AUROC: 0.965 | #Training Samples: 1200
     DuBE            10 | Balanced AUROC: 0.977 | #Training Samples: 2400
     DuBE            20 | Balanced AUROC: 0.984 | #Training Samples: 4800
-    RusBoost        1  | Balanced AUROC: 0.860 | #Training Samples: 240
-    RusBoost        3  | Balanced AUROC: 0.898 | #Training Samples: 720
-    RusBoost        5  | Balanced AUROC: 0.902 | #Training Samples: 1200
-    RusBoost        10 | Balanced AUROC: 0.889 | #Training Samples: 2400
-    RusBoost        20 | Balanced AUROC: 0.905 | #Training Samples: 4800
-    OverBoost       1  | Balanced AUROC: 0.852 | #Training Samples: 2435
+    RusBoost        1  | Balanced AUROC: 0.853 | #Training Samples: 240
+    RusBoost        3  | Balanced AUROC: 0.911 | #Training Samples: 720
+    RusBoost        5  | Balanced AUROC: 0.928 | #Training Samples: 1200
+    RusBoost        10 | Balanced AUROC: 0.847 | #Training Samples: 2400
+    RusBoost        20 | Balanced AUROC: 0.881 | #Training Samples: 4800
+    OverBoost       1  | Balanced AUROC: 0.854 | #Training Samples: 2435
     OverBoost       3  | Balanced AUROC: 0.868 | #Training Samples: 7305
-    OverBoost       5  | Balanced AUROC: 0.881 | #Training Samples: 12175
+    OverBoost       5  | Balanced AUROC: 0.878 | #Training Samples: 12175
     OverBoost       10 | Balanced AUROC: 0.884 | #Training Samples: 24350
     OverBoost       20 | Balanced AUROC: 0.883 | #Training Samples: 48700
-    SmoteBoost      1  | Balanced AUROC: 0.859 | #Training Samples: 2435
-    SmoteBoost      3  | Balanced AUROC: 0.889 | #Training Samples: 7305
-    SmoteBoost      5  | Balanced AUROC: 0.891 | #Training Samples: 12175
+    SmoteBoost      1  | Balanced AUROC: 0.856 | #Training Samples: 2435
+    SmoteBoost      3  | Balanced AUROC: 0.886 | #Training Samples: 7305
+    SmoteBoost      5  | Balanced AUROC: 0.885 | #Training Samples: 12175
     SmoteBoost      10 | Balanced AUROC: 0.894 | #Training Samples: 24350
-    SmoteBoost      20 | Balanced AUROC: 0.897 | #Training Samples: 48700
+    SmoteBoost      20 | Balanced AUROC: 0.896 | #Training Samples: 48700
     UnderBagging    1  | Balanced AUROC: 0.864 | #Training Samples: 265
     UnderBagging    3  | Balanced AUROC: 0.934 | #Training Samples: 800
     UnderBagging    5  | Balanced AUROC: 0.947 | #Training Samples: 1225
     UnderBagging    10 | Balanced AUROC: 0.964 | #Training Samples: 2330
     UnderBagging    20 | Balanced AUROC: 0.968 | #Training Samples: 4530
-    OverBagging     1  | Balanced AUROC: 0.866 | #Training Samples: 2450
-    OverBagging     3  | Balanced AUROC: 0.941 | #Training Samples: 7160
-    OverBagging     5  | Balanced AUROC: 0.953 | #Training Samples: 12015
-    OverBagging     10 | Balanced AUROC: 0.964 | #Training Samples: 24185
-    OverBagging     20 | Balanced AUROC: 0.968 | #Training Samples: 48400
-    SmoteBagging    1  | Balanced AUROC: 0.864 | #Training Samples: 2450
-    SmoteBagging    3  | Balanced AUROC: 0.929 | #Training Samples: 7160
-    SmoteBagging    5  | Balanced AUROC: 0.947 | #Training Samples: 12015
+    OverBagging     1  | Balanced AUROC: 0.864 | #Training Samples: 2450
+    OverBagging     3  | Balanced AUROC: 0.932 | #Training Samples: 7160
+    OverBagging     5  | Balanced AUROC: 0.950 | #Training Samples: 12015
+    OverBagging     10 | Balanced AUROC: 0.963 | #Training Samples: 24185
+    OverBagging     20 | Balanced AUROC: 0.969 | #Training Samples: 48400
+    SmoteBagging    1  | Balanced AUROC: 0.863 | #Training Samples: 2450
+    SmoteBagging    3  | Balanced AUROC: 0.928 | #Training Samples: 7160
+    SmoteBagging    5  | Balanced AUROC: 0.945 | #Training Samples: 12015
     SmoteBagging    10 | Balanced AUROC: 0.968 | #Training Samples: 24185
     SmoteBagging    20 | Balanced AUROC: 0.975 | #Training Samples: 48400
     Cascade         1  | Balanced AUROC: 0.869 | #Training Samples: 240
@@ -293,9 +293,9 @@ Results Visualization
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  48.117 seconds)
+   **Total running time of the script:** ( 0 minutes  46.145 seconds)
 
-**Estimated memory usage:**  26 MB
+**Estimated memory usage:**  15 MB
 
 
 .. _sphx_glr_download_auto_examples_comparison_plot_versus_ensemble.py:

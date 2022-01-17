@@ -19,7 +19,7 @@
 
 
 ==============================================================
-Compare DuBE with Resampling-based IL Methods
+Compare DuBE with resampling-based IL methods (5 classes)
 ==============================================================
 
 In this example, we compare the :class:`duplebalance.DupleBalanceClassifier` 
@@ -225,15 +225,15 @@ Train Resampling-based IL Classifiers
 
  .. code-block:: none
 
-    No-resampling 0.8813825225304903 1000
-    RUS 0.8644865763195341 240
-    TomekLinks 0.8839413304377116 920
-    NearMiss 0.8309449671966869 240
-    Condense 0.8108307267650983 227
-    ROS 0.861808883871318 2435
-    SMOTE 0.8719326418109056 2435
-    ADASYN 0.8897633415033047 2390
-    BorderSMOTE 0.8588987949219163 2435
+    No-resampling 0.8828851091981544 1000
+    RUS 0.8727953972366624 240
+    TomekLinks 0.8804842564696351 920
+    NearMiss 0.8366551576942509 240
+    Condense 0.8081403968288517 227
+    ROS 0.8561541415871521 2435
+    SMOTE 0.8617858533127144 2435
+    ADASYN 0.8698936401528098 2390
+    BorderSMOTE 0.8392594246977406 2435
 
 
 
@@ -300,9 +300,9 @@ Results Visualization
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  46.127 seconds)
+   **Total running time of the script:** ( 0 minutes  44.053 seconds)
 
-**Estimated memory usage:**  28 MB
+**Estimated memory usage:**  15 MB
 
 
 .. _sphx_glr_download_auto_examples_comparison_plot_versus_resampling.py:
